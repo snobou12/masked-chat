@@ -1,0 +1,87 @@
+
+.confirmphone-wrapper {
+  min-height: 90vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.confirmphone-block {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: solid 2px white;
+  border-radius: 20px;
+  padding: 50px 50px 5px 50px;
+  width: 320px;
+}
+
+.confirmphone-title {
+  font-size: 22px;
+  text-align: center;
+  margin-bottom: 1vh;
+}
+
+.confirmphone-img {
+  margin-bottom: 1vh;
+}
+
+.confirmphone-inputs {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 3vh;
+}
+.activation-input {
+  color: black;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  outline: none;
+  border-radius: 8px;
+  text-align: center;
+}
+.activation-input {
+  flex: 0 0 20%;
+  width: 40px;
+  height: 40px;
+}
+
+.confirmphone-tools {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 1vh;
+}
+.confirmphone-tools button:first-child {
+  margin-right: 5px;
+}
+
+.confirmphone-tools button:last-child {
+  margin-left: 5px;
+}
+
+.confirmphone-error {
+  color: red;
+  font-size: 14px;
+  text-align: center;
+  min-height: 45px;
+}
+
+.confirmphone-img {
+  margin-bottom: 1vh;
+  filter: invert(1);
+}
+
+.confirmphone-img img {
+  width: 100px;
+}
+
+.confirmphone-description {
+  margin-bottom: 1vh;
+  color: greenyellow;
+  font-size: 16px;
+  text-align: center;
+}

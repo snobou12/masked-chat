@@ -1,0 +1,71 @@
+
+
+.profile-rooms__title{
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 2vh;
+}
+
+.profile-rooms__allowedusers{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile-rooms__alloweduser {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile-rooms__alloweduser span{
+    color:black;
+}
+
+.profile-rooms__alloweduser div:last-child{
+    cursor: pointer;
+    margin-left: 2px;
+}
+
+
+.profile-rooms__potentialusers{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.profile-rooms__potentialuser{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile-rooms__potentialuser span{
+    color:black;
+}
+
+
+.profile-rooms__alloweduser div{
+    cursor: pointer;
+    margin-left: 2px;
+}
+
+.profile-rooms__potentialuser__tools{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile-rooms__potentialuser__tools div:first-child{
+    margin-left: 2px;
+}
+
+.profile-rooms__potentialuser__tools div:last-child{
+    margin-left: 2px;
+}

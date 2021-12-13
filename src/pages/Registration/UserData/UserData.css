@@ -1,0 +1,126 @@
+
+.userdata-wrapper {
+  min-height: 90vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.userdata-block {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: solid 2px white;
+  border-radius: 20px;
+  padding: 50px 50px 5px 50px;
+  width: 640px;
+}
+
+.userdata-selection__row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.userdata-selection__row div:first-child {
+  margin-right: 20px;
+}
+
+.userdata-title {
+  font-size: 22px;
+  text-align: center;
+  margin-bottom: 1vh;
+}
+.userdata-selection {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  align-items: left;
+  margin-bottom: 1vh;
+}
+
+.userdata-selection input {
+  color: black;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  outline: none;
+  border-radius: 8px;
+}
+
+.userdata-gender__title {
+  text-align: center;
+  margin-bottom: 0.5vh;
+}
+
+.userdata-gender__checkbox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.userdata-gender-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+input[type="radio"] {
+  background-color: green;
+  color: green;
+}
+
+.userdata-gender-item:first-child {
+  margin-right: 5px;
+}
+
+.userdata-gender-item:nth-child(2) {
+  margin-right: 5px;
+  margin-left: 5px;
+}
+
+.userdata-gender-item:last-child {
+  margin-left: 5px;
+}
+
+.userdata-tools {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 1vh;
+}
+.userdata-tools button:first-child {
+  margin-right: 5px;
+}
+
+.huserdata-tools button:last-child {
+  margin-left: 5px;
+}
+
+.userdata-error {
+  color: red;
+  font-size: 14px;
+  text-align: center;
+  min-height: 45px;
+}
+
+@media (max-width: 535px) {
+  .userdata-selection__row {
+    display: block;
+  }
+
+  .userdata-block {
+    width: 320px;
+  }
+}
+
+@media (max-width: 520px) {
+}
+
+@media (max-width: 450px) {
+}
+
+@media (max-width: 320px) {
+}

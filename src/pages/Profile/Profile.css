@@ -1,0 +1,38 @@
+.profile-wrapper{
+    min-height: 90vh;
+  background-color: #141414;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+    
+}
+
+.profile-norooms {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.profile-norooms span{
+  font-weight: bold;
+  font-size: 20px;
+  margin-bottom: 1vh;
+}
+
+.profile-norooms__tools{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+}
+.profile-norooms__tools div:first-child{
+  margin-right: 10px;
+}
+
+.profile-norooms__tools div:last-child{
+  margin-left: 10px;
+  
+}

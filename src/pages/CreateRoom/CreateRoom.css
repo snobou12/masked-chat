@@ -1,0 +1,151 @@
+.createroom-wrapper{
+    min-height: 90vh;
+  background-color: #141414;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.createroom-block{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: solid 2px white;
+    border-radius: 20px;
+    padding: 50px 50px 5px 50px;
+    width: 640px;
+}
+
+.createroom-selection__row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1vh;
+    
+}
+
+.createroom-selection:first-child{
+    margin-right: 20px;
+}
+
+
+.createroom-selection:last-child{
+    margin-left: 20px;
+}
+.createroom-image{
+    margin-bottom: 1vh;
+}
+
+.createroom-selection{
+    display: flex;
+  flex-direction: column;
+  justify-content: left;
+  align-items: left;
+  margin-bottom: 1vh;
+}
+
+.createroom-selection__input input{
+    color: black;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  outline: none;
+  border-radius: 8px;
+}
+.createroom-selection__input textarea{
+    color: black;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  outline: none;
+
+  border-radius: 8px;
+}
+ 
+.createroom-title{
+    margin-bottom: 2vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.createroom-title svg{
+    margin-left: 10px;
+}
+.createroom-title span{
+    font-weight: bold;
+    font-size: 20px;
+  
+}
+
+
+.createroom-tools{
+    margin-bottom: 1vh;
+}
+
+.createroom-error{
+    color: red;
+  font-size: 14px;
+  text-align: center;
+  min-height: 45px;
+}
+
+
+.createroom-success {
+    color: greenyellow;
+    font-size: 14px;
+    text-align: center;
+    min-height: 40px;
+  }
+
+.createroom-tooltip{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (max-width: 600px) {
+    .createroom-selection__row{
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .createroom-selection{
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+       
+    }
+    .createroom-selection input{
+        text-align: center;
+    }
+    .createroom-selection:first-child{
+        margin-right: 0px;
+    }
+    
+    
+    .createroom-selection:last-child{
+        margin-left: 0px;
+    }
+
+}
+@media (max-width: 535px) {
+    
+    .createroom-block {
+      width: 320px;
+    }
+  }
+  
+  @media (max-width: 520px) {
+  }
+  
+  @media (max-width: 450px) {
+  }
+  
+  @media (max-width: 320px) {
+  }

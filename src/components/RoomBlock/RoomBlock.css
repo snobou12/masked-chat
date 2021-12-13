@@ -1,0 +1,103 @@
+.roomblock-wrapper{
+    width:310px;
+    height: 500px;
+    background-color: #292929;
+    border-radius: 20px;
+    margin: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding:5px;
+    
+    
+
+}
+
+
+.roomblock-title{
+  font-weight: bold;
+ 
+  flex: 0 0 10%;
+}
+.roomblock-image{
+  
+  flex: 0 0 35%;
+
+}
+
+.roomblock-description{
+    text-align: center;
+  flex: 0 0 20%;
+
+
+}
+.roomblock-description span{
+    font-weight: bold;
+}
+
+.roomblock-type{
+    flex: 0 0 5%;
+  
+    
+}
+
+.roomblock-count{
+  flex: 0 0 5%;
+}
+
+.roomblock-count span{
+  font-weight: bold;
+
+}
+
+.roomblock-type span{
+    font-weight: bold;
+}
+
+.roomblock-age__restriction{
+    
+  flex: 0 0 5%;
+
+}
+
+.roomblock-age__restriction span{
+    font-weight: bold;
+}
+.roomblock-enter{
+  flex: 0 0 10%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+   
+}
+
+.roomblock-created{
+  flex: 0 0 10%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: flex-end;
+    
+
+}
+
+.roomblock-created span{
+    font-weight: bold;
+}
+
+
+.roomblock-enter__moderator{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.roomblock-enter__moderator div:first-child{
+  margin-right: 2px;
+} 
+.roomblock-enter__moderator div:last-child{
+  margin-left: 2px;
+}

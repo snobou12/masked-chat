@@ -1,0 +1,74 @@
+
+.phone-wrapper {
+  min-height: 90vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.phone-block {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: solid 2px white;
+  border-radius: 20px;
+  padding: 50px 50px 0 50px;
+  width: 320px;
+}
+.phone-input {
+  margin-bottom: 2vh;
+}
+.phone-input input {
+  color: black;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  outline: none;
+  border-radius: 8px;
+}
+.phone-title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 1vh;
+}
+.phone-title span:first-child {
+  font-size: 22px;
+  text-align: center;
+  margin-bottom: 0.5vh;
+}
+.phone-title span:last-child {
+  text-align: center;
+}
+
+.phone-tools {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 1vh;
+}
+.phone-tools button:first-child {
+  margin-right: 5px;
+}
+
+.phone-tools button:last-child {
+  margin-left: 5px;
+}
+
+.phone-error {
+  color: red;
+  font-size: 14px;
+  text-align: center;
+  min-height: 50px;
+}
+
+.phone-img {
+  margin-bottom: 1vh;
+  filter: invert(1);
+}
+
+.phone-img img {
+  width: 100px;
+}

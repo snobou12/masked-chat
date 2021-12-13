@@ -1,0 +1,31 @@
+.allrooms-wrapper{
+    min-height: 90vh;
+    background-color: #141414;
+  transition: margin 0.2s ease;
+
+}
+
+
+.room-sort__open:hover{
+    border-left: 25px solid #505050;
+
+}
+
+.room-blocks{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content:space-evenly;
+  align-items: flex-start;
+
+}
+
+.allrooms-not__found{
+  min-height: 90vh;
+  font-weight: bold;
+  font-size: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
